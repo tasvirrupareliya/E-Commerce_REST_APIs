@@ -1,0 +1,332 @@
+{
+    "fields": [
+      {
+        "name": "_id",
+        "path": "_id",
+        "count": 6,
+        "types": [
+          {
+            "name": "ObjectId",
+            "bsonType": "ObjectId",
+            "path": "_id",
+            "count": 6,
+            "values": [
+              "6435ef071589f4e51168f7ae",
+              "6435f0e81589f4e51168f7c0",
+              "6435f1f31589f4e51168f7d2",
+              "6431a755ae220ae3986d9465",
+              "6435eefc1589f4e51168f7ab",
+              "6435eee91589f4e51168f7a8"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 6,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 6,
+        "type": "ObjectId",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "createdAt",
+        "path": "createdAt",
+        "count": 6,
+        "types": [
+          {
+            "name": "Date",
+            "bsonType": "Date",
+            "path": "createdAt",
+            "count": 6,
+            "values": [
+              "2023-04-11T23:36:39.609Z",
+              "2023-04-11T23:44:40.505Z",
+              "2023-04-11T23:49:07.347Z",
+              "2023-04-08T17:41:41.550Z",
+              "2023-04-11T23:36:28.678Z",
+              "2023-04-11T23:36:09.361Z"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 6,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 6,
+        "type": "Date",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "description",
+        "path": "description",
+        "count": 6,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "description",
+            "count": 6,
+            "values": [
+              "description ..... ",
+              "product description .....",
+              "product description .....",
+              "product description .....",
+              "product description .....",
+              "product description ....."
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 6,
+        "type": "String",
+        "has_duplicates": true,
+        "probability": 1
+      },
+      {
+        "name": "images",
+        "path": "images",
+        "count": 6,
+        "types": [
+          {
+            "name": "Array",
+            "bsonType": "Array",
+            "path": "images",
+            "count": 6,
+            "types": [
+              {
+                "name": "String",
+                "bsonType": "String",
+                "path": "images",
+                "count": 12,
+                "values": [
+                  "uploads\\download (2).jpeg",
+                  "uploads\\download (1).jpeg",
+                  "uploads\\download (2).jpeg",
+                  "uploads\\download (1).jpeg",
+                  "uploads\\download (2).jpeg",
+                  "uploads\\download (1).jpeg",
+                  "uploads\\download (2).jpeg",
+                  "uploads\\download (1).jpeg",
+                  "uploads\\download (2).jpeg",
+                  "uploads\\download (1).jpeg",
+                  "uploads\\download (2).jpeg",
+                  "uploads\\download (1).jpeg"
+                ],
+                "total_count": 0,
+                "probability": 1,
+                "unique": 2,
+                "has_duplicates": true
+              }
+            ],
+            "lengths": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "total_count": 12,
+            "probability": 1,
+            "average_length": 2
+          }
+        ],
+        "total_count": 6,
+        "type": "Array",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "isActive",
+        "path": "isActive",
+        "count": 6,
+        "types": [
+          {
+            "name": "Boolean",
+            "bsonType": "Boolean",
+            "path": "isActive",
+            "count": 6,
+            "values": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 6,
+        "type": "Boolean",
+        "has_duplicates": true,
+        "probability": 1
+      },
+      {
+        "name": "pricing",
+        "path": "pricing",
+        "count": 5,
+        "types": [
+          {
+            "name": "Int32",
+            "bsonType": "Int32",
+            "path": "pricing",
+            "count": 5,
+            "values": [
+              120,
+              100,
+              100,
+              100,
+              100
+            ],
+            "total_count": 0,
+            "probability": 0.8333333333333334,
+            "unique": 2,
+            "has_duplicates": true
+          },
+          {
+            "name": "Undefined",
+            "type": "Undefined",
+            "path": "pricing",
+            "count": 1,
+            "total_count": 0,
+            "probability": 0.16666666666666666,
+            "unique": 1,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 6,
+        "type": [
+          "Int32",
+          "Undefined"
+        ],
+        "has_duplicates": true,
+        "probability": 0.8333333333333334
+      },
+      {
+        "name": "productName",
+        "path": "productName",
+        "count": 6,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "productName",
+            "count": 6,
+            "values": [
+              "test",
+              "Product 1",
+              "Product 1",
+              "Product 1",
+              "Product 1",
+              "Product 1"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 6,
+        "type": "String",
+        "has_duplicates": true,
+        "probability": 1
+      },
+      {
+        "name": "shippingCost",
+        "path": "shippingCost",
+        "count": 6,
+        "types": [
+          {
+            "name": "Int32",
+            "bsonType": "Int32",
+            "path": "shippingCost",
+            "count": 6,
+            "values": [
+              20,
+              50,
+              50,
+              50,
+              50,
+              50
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 6,
+        "type": "Int32",
+        "has_duplicates": true,
+        "probability": 1
+      },
+      {
+        "name": "updatedAt",
+        "path": "updatedAt",
+        "count": 6,
+        "types": [
+          {
+            "name": "Date",
+            "bsonType": "Date",
+            "path": "updatedAt",
+            "count": 6,
+            "values": [
+              "2023-04-11T23:55:16.521Z",
+              "2023-04-11T23:44:40.505Z",
+              "2023-04-11T23:49:07.347Z",
+              "2023-04-08T17:41:41.550Z",
+              "2023-04-11T23:36:28.678Z",
+              "2023-04-11T23:36:09.361Z"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 6,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 6,
+        "type": "Date",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "userId",
+        "path": "userId",
+        "count": 6,
+        "types": [
+          {
+            "name": "ObjectId",
+            "bsonType": "ObjectId",
+            "path": "userId",
+            "count": 6,
+            "values": [
+              "6431a329ae220ae3986d945a",
+              "6431a329ae220ae3986d945a",
+              "6431a329ae220ae3986d945a",
+              "6431a329ae220ae3986d945a",
+              "6431a329ae220ae3986d945a",
+              "6431a329ae220ae3986d945a"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 6,
+        "type": "ObjectId",
+        "has_duplicates": true,
+        "probability": 1
+      }
+    ],
+    "count": 6
+  }

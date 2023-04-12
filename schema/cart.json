@@ -1,0 +1,241 @@
+{
+    "fields": [
+      {
+        "name": "_id",
+        "path": "_id",
+        "count": 2,
+        "types": [
+          {
+            "name": "ObjectId",
+            "bsonType": "ObjectId",
+            "path": "_id",
+            "count": 2,
+            "values": [
+              "6435f3bd6631559f73ae0427",
+              "6435f71fed2be1a8a8628f8d"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "ObjectId",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "createdAt",
+        "path": "createdAt",
+        "count": 2,
+        "types": [
+          {
+            "name": "Date",
+            "bsonType": "Date",
+            "path": "createdAt",
+            "count": 2,
+            "values": [
+              "2023-04-11T23:56:45.979Z",
+              "2023-04-12T00:11:11.742Z"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "Date",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "isActive",
+        "path": "isActive",
+        "count": 2,
+        "types": [
+          {
+            "name": "Boolean",
+            "bsonType": "Boolean",
+            "path": "isActive",
+            "count": 2,
+            "values": [
+              false,
+              true
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "Boolean",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "products",
+        "path": "products",
+        "count": 2,
+        "types": [
+          {
+            "name": "Array",
+            "bsonType": "Array",
+            "path": "products",
+            "count": 2,
+            "types": [
+              {
+                "name": "Document",
+                "bsonType": "Document",
+                "path": "products",
+                "count": 2,
+                "fields": [
+                  {
+                    "name": "_id",
+                    "path": "products._id",
+                    "count": 2,
+                    "types": [
+                      {
+                        "name": "ObjectId",
+                        "bsonType": "ObjectId",
+                        "path": "products._id",
+                        "count": 2,
+                        "values": [
+                          "6435f3cc6631559f73ae042e",
+                          "6435f71fed2be1a8a8628f8e"
+                        ],
+                        "total_count": 0,
+                        "probability": 1,
+                        "unique": 2,
+                        "has_duplicates": false
+                      }
+                    ],
+                    "total_count": 2,
+                    "type": "ObjectId",
+                    "has_duplicates": false,
+                    "probability": 1
+                  },
+                  {
+                    "name": "productId",
+                    "path": "products.productId",
+                    "count": 2,
+                    "types": [
+                      {
+                        "name": "ObjectId",
+                        "bsonType": "ObjectId",
+                        "path": "products.productId",
+                        "count": 2,
+                        "values": [
+                          "6431a755ae220ae3986d9465",
+                          "6431a755ae220ae3986d9465"
+                        ],
+                        "total_count": 0,
+                        "probability": 1,
+                        "unique": 1,
+                        "has_duplicates": true
+                      }
+                    ],
+                    "total_count": 2,
+                    "type": "ObjectId",
+                    "has_duplicates": true,
+                    "probability": 1
+                  },
+                  {
+                    "name": "quantity",
+                    "path": "products.quantity",
+                    "count": 2,
+                    "types": [
+                      {
+                        "name": "Int32",
+                        "bsonType": "Int32",
+                        "path": "products.quantity",
+                        "count": 2,
+                        "values": [
+                          5,
+                          10
+                        ],
+                        "total_count": 0,
+                        "probability": 1,
+                        "unique": 2,
+                        "has_duplicates": false
+                      }
+                    ],
+                    "total_count": 2,
+                    "type": "Int32",
+                    "has_duplicates": false,
+                    "probability": 1
+                  }
+                ],
+                "total_count": 0,
+                "probability": 1
+              }
+            ],
+            "lengths": [
+              1,
+              1
+            ],
+            "total_count": 2,
+            "probability": 1,
+            "average_length": 1
+          }
+        ],
+        "total_count": 2,
+        "type": "Array",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "updatedAt",
+        "path": "updatedAt",
+        "count": 2,
+        "types": [
+          {
+            "name": "Date",
+            "bsonType": "Date",
+            "path": "updatedAt",
+            "count": 2,
+            "values": [
+              "2023-04-11T23:58:59.490Z",
+              "2023-04-12T00:13:27.834Z"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "Date",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "userId",
+        "path": "userId",
+        "count": 2,
+        "types": [
+          {
+            "name": "ObjectId",
+            "bsonType": "ObjectId",
+            "path": "userId",
+            "count": 2,
+            "values": [
+              "6435ed081589f4e51168f790",
+              "6435ed081589f4e51168f790"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 2,
+        "type": "ObjectId",
+        "has_duplicates": true,
+        "probability": 1
+      }
+    ],
+    "count": 2
+  }

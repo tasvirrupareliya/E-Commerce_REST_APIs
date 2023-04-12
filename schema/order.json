@@ -1,0 +1,242 @@
+{
+    "fields": [
+      {
+        "name": "_id",
+        "path": "_id",
+        "count": 2,
+        "types": [
+          {
+            "name": "ObjectId",
+            "bsonType": "ObjectId",
+            "path": "_id",
+            "count": 2,
+            "values": [
+              "6431a839dac4ea896fe6505c",
+              "6435f443553b5741f43a6305"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "ObjectId",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "cartId",
+        "path": "cartId",
+        "count": 2,
+        "types": [
+          {
+            "name": "ObjectId",
+            "bsonType": "ObjectId",
+            "path": "cartId",
+            "count": 2,
+            "values": [
+              "6431a7fddac4ea896fe6504a",
+              "6435f3bd6631559f73ae0427"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "ObjectId",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "createdAt",
+        "path": "createdAt",
+        "count": 2,
+        "types": [
+          {
+            "name": "Date",
+            "bsonType": "Date",
+            "path": "createdAt",
+            "count": 2,
+            "values": [
+              "2023-04-08T17:45:29.321Z",
+              "2023-04-11T23:58:59.445Z"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "Date",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "duedate",
+        "path": "duedate",
+        "count": 1,
+        "types": [
+          {
+            "name": "Date",
+            "bsonType": "Date",
+            "path": "duedate",
+            "count": 1,
+            "values": [
+              "2023-04-14T23:58:54.704Z"
+            ],
+            "total_count": 0,
+            "probability": 0.5,
+            "unique": 1,
+            "has_duplicates": false
+          },
+          {
+            "name": "Undefined",
+            "type": "Undefined",
+            "path": "duedate",
+            "count": 1,
+            "total_count": 0,
+            "probability": 0.5,
+            "unique": 1,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": [
+          "Date",
+          "Undefined"
+        ],
+        "has_duplicates": false,
+        "probability": 0.5
+      },
+      {
+        "name": "isActive",
+        "path": "isActive",
+        "count": 2,
+        "types": [
+          {
+            "name": "Boolean",
+            "bsonType": "Boolean",
+            "path": "isActive",
+            "count": 2,
+            "values": [
+              true,
+              true
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 2,
+        "type": "Boolean",
+        "has_duplicates": true,
+        "probability": 1
+      },
+      {
+        "name": "totalPrice",
+        "path": "totalPrice",
+        "count": 2,
+        "types": [
+          {
+            "name": "Int32",
+            "bsonType": "Int32",
+            "path": "totalPrice",
+            "count": 2,
+            "values": [
+              600,
+              500
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "Int32",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "totalShippingCost",
+        "path": "totalShippingCost",
+        "count": 2,
+        "types": [
+          {
+            "name": "Int32",
+            "bsonType": "Int32",
+            "path": "totalShippingCost",
+            "count": 2,
+            "values": [
+              50,
+              50
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 2,
+        "type": "Int32",
+        "has_duplicates": true,
+        "probability": 1
+      },
+      {
+        "name": "updatedAt",
+        "path": "updatedAt",
+        "count": 2,
+        "types": [
+          {
+            "name": "Date",
+            "bsonType": "Date",
+            "path": "updatedAt",
+            "count": 2,
+            "values": [
+              "2023-04-08T17:45:29.321Z",
+              "2023-04-11T23:58:59.445Z"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "Date",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "userId",
+        "path": "userId",
+        "count": 2,
+        "types": [
+          {
+            "name": "ObjectId",
+            "bsonType": "ObjectId",
+            "path": "userId",
+            "count": 2,
+            "values": [
+              "6431a4c3ae220ae3986d945e",
+              "6435ed081589f4e51168f790"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "ObjectId",
+        "has_duplicates": false,
+        "probability": 1
+      }
+    ],
+    "count": 2
+  }

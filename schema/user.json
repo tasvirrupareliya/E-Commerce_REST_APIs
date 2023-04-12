@@ -1,0 +1,405 @@
+{
+    "fields": [
+      {
+        "name": "_id",
+        "path": "_id",
+        "count": 3,
+        "types": [
+          {
+            "name": "ObjectId",
+            "bsonType": "ObjectId",
+            "path": "_id",
+            "count": 3,
+            "values": [
+              "6431a329ae220ae3986d945a",
+              "6431a4c3ae220ae3986d945e",
+              "6435ed081589f4e51168f790"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 3,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 3,
+        "type": "ObjectId",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "createdAt",
+        "path": "createdAt",
+        "count": 3,
+        "types": [
+          {
+            "name": "Date",
+            "bsonType": "Date",
+            "path": "createdAt",
+            "count": 3,
+            "values": [
+              "2023-04-08T17:23:53.036Z",
+              "2023-04-08T17:30:43.113Z",
+              "2023-04-11T23:28:08.276Z"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 3,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 3,
+        "type": "Date",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "email",
+        "path": "email",
+        "count": 3,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "email",
+            "count": 3,
+            "values": [
+              "admin@yopmail.com",
+              "user@yopmail.com",
+              "jigar@yopmail.com"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 3,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 3,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "isActive",
+        "path": "isActive",
+        "count": 3,
+        "types": [
+          {
+            "name": "Boolean",
+            "bsonType": "Boolean",
+            "path": "isActive",
+            "count": 3,
+            "values": [
+              true,
+              true,
+              true
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 3,
+        "type": "Boolean",
+        "has_duplicates": true,
+        "probability": 1
+      },
+      {
+        "name": "password",
+        "path": "password",
+        "count": 3,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "password",
+            "count": 3,
+            "values": [
+              "$2a$10$lusYVhLz/E1jaSUEImK9VOCrjLbuf7ap4rdsL6P48v5Cax/uEMpKG",
+              "$2a$10$WoeFC9TyFr18j6uCGTDMDOSgdeHYQmYhJLxp68RsVvCXTF2orwfRu",
+              "$2a$10$7XrgYmEyr.L5MhvS3VkKJuGoTUHJWoQzyBfC1xDnodvAQB5sO6G9S"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 3,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 3,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "purchaseHistory",
+        "path": "purchaseHistory",
+        "count": 3,
+        "types": [
+          {
+            "name": "Array",
+            "bsonType": "Array",
+            "path": "purchaseHistory",
+            "count": 3,
+            "types": [
+              {
+                "name": "ObjectId",
+                "bsonType": "ObjectId",
+                "path": "purchaseHistory",
+                "count": 2,
+                "values": [
+                  "6431a839dac4ea896fe6505c",
+                  "6435f443553b5741f43a6305"
+                ],
+                "total_count": 0,
+                "probability": 1,
+                "unique": 2,
+                "has_duplicates": false
+              }
+            ],
+            "lengths": [
+              0,
+              1,
+              1
+            ],
+            "total_count": 2,
+            "probability": 1,
+            "average_length": 0.6666666666666666
+          }
+        ],
+        "total_count": 3,
+        "type": "Array",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "role",
+        "path": "role",
+        "count": 3,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "role",
+            "count": 3,
+            "values": [
+              "admin",
+              "user",
+              "jigar"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 3,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 3,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "shippingAddress",
+        "path": "shippingAddress",
+        "count": 3,
+        "types": [
+          {
+            "name": "Document",
+            "bsonType": "Document",
+            "path": "shippingAddress",
+            "count": 3,
+            "fields": [
+              {
+                "name": "address",
+                "path": "shippingAddress.address",
+                "count": 3,
+                "types": [
+                  {
+                    "name": "String",
+                    "bsonType": "String",
+                    "path": "shippingAddress.address",
+                    "count": 3,
+                    "values": [
+                      "test",
+                      "test",
+                      "test"
+                    ],
+                    "total_count": 0,
+                    "probability": 1,
+                    "unique": 1,
+                    "has_duplicates": true
+                  }
+                ],
+                "total_count": 3,
+                "type": "String",
+                "has_duplicates": true,
+                "probability": 1
+              },
+              {
+                "name": "city",
+                "path": "shippingAddress.city",
+                "count": 3,
+                "types": [
+                  {
+                    "name": "String",
+                    "bsonType": "String",
+                    "path": "shippingAddress.city",
+                    "count": 3,
+                    "values": [
+                      "test",
+                      "test",
+                      "test"
+                    ],
+                    "total_count": 0,
+                    "probability": 1,
+                    "unique": 1,
+                    "has_duplicates": true
+                  }
+                ],
+                "total_count": 3,
+                "type": "String",
+                "has_duplicates": true,
+                "probability": 1
+              },
+              {
+                "name": "country",
+                "path": "shippingAddress.country",
+                "count": 3,
+                "types": [
+                  {
+                    "name": "String",
+                    "bsonType": "String",
+                    "path": "shippingAddress.country",
+                    "count": 3,
+                    "values": [
+                      "test",
+                      "test",
+                      "test"
+                    ],
+                    "total_count": 0,
+                    "probability": 1,
+                    "unique": 1,
+                    "has_duplicates": true
+                  }
+                ],
+                "total_count": 3,
+                "type": "String",
+                "has_duplicates": true,
+                "probability": 1
+              },
+              {
+                "name": "postalcode",
+                "path": "shippingAddress.postalcode",
+                "count": 3,
+                "types": [
+                  {
+                    "name": "String",
+                    "bsonType": "String",
+                    "path": "shippingAddress.postalcode",
+                    "count": 3,
+                    "values": [
+                      "test",
+                      "test",
+                      "test"
+                    ],
+                    "total_count": 0,
+                    "probability": 1,
+                    "unique": 1,
+                    "has_duplicates": true
+                  }
+                ],
+                "total_count": 3,
+                "type": "String",
+                "has_duplicates": true,
+                "probability": 1
+              },
+              {
+                "name": "province",
+                "path": "shippingAddress.province",
+                "count": 3,
+                "types": [
+                  {
+                    "name": "String",
+                    "bsonType": "String",
+                    "path": "shippingAddress.province",
+                    "count": 3,
+                    "values": [
+                      "test",
+                      "test",
+                      "test"
+                    ],
+                    "total_count": 0,
+                    "probability": 1,
+                    "unique": 1,
+                    "has_duplicates": true
+                  }
+                ],
+                "total_count": 3,
+                "type": "String",
+                "has_duplicates": true,
+                "probability": 1
+              }
+            ],
+            "total_count": 0,
+            "probability": 1
+          }
+        ],
+        "total_count": 3,
+        "type": "Document",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "updatedAt",
+        "path": "updatedAt",
+        "count": 3,
+        "types": [
+          {
+            "name": "Date",
+            "bsonType": "Date",
+            "path": "updatedAt",
+            "count": 3,
+            "values": [
+              "2023-04-08T17:23:53.036Z",
+              "2023-04-08T17:45:29.425Z",
+              "2023-04-11T23:58:59.531Z"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 3,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 3,
+        "type": "Date",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "username",
+        "path": "username",
+        "count": 3,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "username",
+            "count": 3,
+            "values": [
+              "Admin",
+              "user",
+              "Jigar1234"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 3,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 3,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      }
+    ],
+    "count": 3
+  }

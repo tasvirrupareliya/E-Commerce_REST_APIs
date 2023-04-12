@@ -1,0 +1,230 @@
+{
+    "fields": [
+      {
+        "name": "_id",
+        "path": "_id",
+        "count": 2,
+        "types": [
+          {
+            "name": "ObjectId",
+            "bsonType": "ObjectId",
+            "path": "_id",
+            "count": 2,
+            "values": [
+              "6435f1281589f4e51168f7c3",
+              "6431a7dedac4ea896fe65045"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "ObjectId",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "createdAt",
+        "path": "createdAt",
+        "count": 2,
+        "types": [
+          {
+            "name": "Date",
+            "bsonType": "Date",
+            "path": "createdAt",
+            "count": 2,
+            "values": [
+              "2023-04-11T23:45:44.333Z",
+              "2023-04-08T17:43:58.927Z"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "Date",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "image",
+        "path": "image",
+        "count": 2,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "image",
+            "count": 2,
+            "values": [
+              "uploads\\download.jpeg",
+              "uploads\\download (1).jpeg"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "isActive",
+        "path": "isActive",
+        "count": 2,
+        "types": [
+          {
+            "name": "Boolean",
+            "bsonType": "Boolean",
+            "path": "isActive",
+            "count": 2,
+            "values": [
+              true,
+              true
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 2,
+        "type": "Boolean",
+        "has_duplicates": true,
+        "probability": 1
+      },
+      {
+        "name": "productId",
+        "path": "productId",
+        "count": 2,
+        "types": [
+          {
+            "name": "ObjectId",
+            "bsonType": "ObjectId",
+            "path": "productId",
+            "count": 2,
+            "values": [
+              "6435f0e81589f4e51168f7c0",
+              "6431a755ae220ae3986d9465"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "ObjectId",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "ratting",
+        "path": "ratting",
+        "count": 2,
+        "types": [
+          {
+            "name": "Int32",
+            "bsonType": "Int32",
+            "path": "ratting",
+            "count": 2,
+            "values": [
+              4,
+              4
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 2,
+        "type": "Int32",
+        "has_duplicates": true,
+        "probability": 1
+      },
+      {
+        "name": "text",
+        "path": "text",
+        "count": 2,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "text",
+            "count": 2,
+            "values": [
+              "awsome",
+              "awsome"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 2,
+        "type": "String",
+        "has_duplicates": true,
+        "probability": 1
+      },
+      {
+        "name": "updatedAt",
+        "path": "updatedAt",
+        "count": 2,
+        "types": [
+          {
+            "name": "Date",
+            "bsonType": "Date",
+            "path": "updatedAt",
+            "count": 2,
+            "values": [
+              "2023-04-11T23:45:44.333Z",
+              "2023-04-08T17:43:58.927Z"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "Date",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "userId",
+        "path": "userId",
+        "count": 2,
+        "types": [
+          {
+            "name": "ObjectId",
+            "bsonType": "ObjectId",
+            "path": "userId",
+            "count": 2,
+            "values": [
+              "6435ed081589f4e51168f790",
+              "6431a4c3ae220ae3986d945e"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "ObjectId",
+        "has_duplicates": false,
+        "probability": 1
+      }
+    ],
+    "count": 2
+  }
