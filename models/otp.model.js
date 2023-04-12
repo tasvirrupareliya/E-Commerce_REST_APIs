@@ -4,6 +4,7 @@ const { USER_TYPE } = require("../json/enums.json");
 
 let otpSchema = new Schema(
   {
+      //otp model class
     email: String,
     otp: String,
     expireAt: {

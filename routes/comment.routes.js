@@ -8,6 +8,7 @@ const {
 } = require("../controllers");
 const upload = require("../service/multer");
 
+//insert comments 
 router.post(
   "/create",
   auth(),
@@ -16,6 +17,7 @@ router.post(
   APIS.create
 );
 
+// for delete comments
 router.delete("/delete/:id", auth(), APIS.delete);
 
 module.exports = router;

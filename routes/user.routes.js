@@ -21,8 +21,12 @@ router.post(
   APIS.changePassword
 );
 
+//update user details
+
 router.put("/update/:_id", auth(), VALIDATOR.update, APIS.update);
 
+
+//get user details
 router.get("/get", auth(), VALIDATOR.fetch, APIS.getUser);
 router.get("/dashboard", auth(), APIS.dashboardCounts);
 

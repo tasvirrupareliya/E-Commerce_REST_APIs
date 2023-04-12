@@ -2,6 +2,7 @@ const { Schema, model } = require("mongoose");
 
 const orderSchema = new Schema(
   {
+        //order model class
     cartId: {
       type: Schema.Types.ObjectId,
       ref: "cart",

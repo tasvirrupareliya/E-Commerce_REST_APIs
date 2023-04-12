@@ -17,6 +17,9 @@ const message = require("../json/message.json");
 //   isActive: true,
 // };
 
+
+//  //User model class
+
 const userSchema = new Schema(
   {
     email: {

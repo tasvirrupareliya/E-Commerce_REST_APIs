@@ -2,6 +2,7 @@ const { Schema, model } = require("mongoose");
 
 const cartSchema = new Schema(
   {
+    //cart model class
     products: [
       {
         productId: {

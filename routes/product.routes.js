@@ -18,6 +18,7 @@ router.post(
 
 router.get("/get", APIS.getProduct);
 
+//update all product
 router.put(
   "/update/:id",
   auth(),
@@ -26,7 +27,10 @@ router.put(
   APIS.update
 );
 
+//get all product
 router.get("/get/:id", auth(), APIS.getProductBtId);
+
+//delete all product
 
 router.delete("/delete/:id", auth(), APIS.delete);
 
