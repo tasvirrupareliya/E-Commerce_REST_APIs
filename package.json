@@ -1,12 +1,12 @@
 {
-  "name": "ecomm",
+  "name": "Assignment4",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
-    "start:linux": "DEBUG=ecomm:server,db,admin,socket node ./bin/www",
-    "dev:linux": "DEBUG=ecomm:server,db,admin,socket nodemon ./bin/www"
+    "start:linux": "DEBUG=Assignment4:server,db,admin,socket node ./bin/www",
+    "dev:linux": "DEBUG=Assignment4:server,db,admin,socket nodemon ./bin/www"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
